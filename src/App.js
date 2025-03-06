@@ -30,7 +30,9 @@ const App = () => {
   return (
     <div className="container">
       <header>
-        <h1>Reconocimiento de Usuarios</h1>
+        <h1>
+          Actividad integradora 2. El backlog y el spring Schedule del proyecto
+        </h1>
         <nav>
           <ul>
             <li>
