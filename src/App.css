@@ -28,7 +28,10 @@ nav ul {
 }
 
 #Imginicio {
-  width: 100%;
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+
   border: 5px solid black;
   border-radius: 20px;
 }
@@ -81,4 +84,18 @@ footer {
   color: white;
   border-radius: 0 0 10px 10px;
   margin-top: 20px;
+}
+
+.MainContact {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Imgcontact {
+  width: 400px;
+  height: 400px;
+}
+
+.Imgcontact img {
+  width: 100%;
 }
