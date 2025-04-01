@@ -1,6 +1,7 @@
 import React, { useState, useRef } from "react";
 import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import "./App.css";
+import imagen1 from "./imagen1.jpg";
 import Contacto from "./contacto";
 
 function Home() {
@@ -45,15 +46,11 @@ function Home() {
 
       <main>
         <section id="inicio">
-          <img
-            src="https://img.freepik.com/foto-gratis/reconocimiento-facial-collage-identificacion-personal_23-2150165585.jpg?t=st=1741291400~exp=1741295000~hmac=3bcb1a18467d8c392e09496ea51c79bf2c7a048d6918a1a79d2301cb365c4869&w=1380"
-            id="Imginicio"
-            alt="Reconocimiento Facial"
-          ></img>
+          <img src={imagen1} id="Imginicio" alt="Reconocimiento Facial"></img>
           <h2>Inicio</h2>
           <p>
-            Actividad integradora 2. El backlog y el spring Schedule del
-            proyecto
+            Actividad 2. Segunda fase de desarrollo, revisión y ajuste de los
+            Sprints y el backlog
           </p>
           <button onClick={startCamera}>Activar Cámara</button>
           <video
