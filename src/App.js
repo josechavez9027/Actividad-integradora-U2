@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import "./App.css";
 import imagen1 from "./imagen1.jpg";
 import Contacto from "./contacto";
+import Acercade from "./acercade";
 
 function Home() {
   const [cameraActive, setCameraActive] = useState(false);
@@ -29,10 +30,10 @@ function Home() {
         <nav>
           <ul>
             <li>
-              <a href="#inicio">Inicio</a>
+              <Link to="/">Inicio</Link>
             </li>
             <li>
-              <a href="#acerca">Acerca de</a>
+              <Link to="/acercade">Acerca de</Link>
             </li>
             <li>
               <Link to="/contacto">Contacto</Link>
@@ -148,6 +149,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/contacto" element={<Contacto />} />
+        <Route path="/acercade" element={<Acercade />} />
       </Routes>
     </Router>
   );

@@ -55,10 +55,10 @@ const Contacto = () => {
               <Link to="/">Inicio</Link>
             </li>
             <li>
-              <a href="#acerca">Acerca de</a>
+              <Link to="/acercade">Acerca de</Link>
             </li>
             <li>
-              <a href="#contacto">Contacto</a>
+              <Link to="/contacto">Contacto</Link>
             </li>
             <li>
               <a href="#documentacion">Documentación</a>
