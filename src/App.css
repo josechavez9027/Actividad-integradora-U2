@@ -31,11 +31,20 @@ nav ul {
   width: 60%;
   display: block;
   margin: 0 auto;
-
   border: 5px solid black;
   border-radius: 20px;
 }
 
+#objetivos,
+#descripcion,
+#limites {
+  display: flex;
+}
+
+#ImgObjetivo {
+  width: 250px;
+  height: auto;
+}
 nav ul li {
   display: inline;
   margin: 0 15px;
