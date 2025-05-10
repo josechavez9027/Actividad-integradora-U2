@@ -19,7 +19,7 @@ function Acercade() {
               <Link to="/contacto">Contacto</Link>
             </li>
             <li>
-              <a href="#documentacion">Documentación</a>
+              <Link to="/menu">Menu</Link>
             </li>
           </ul>
         </nav>

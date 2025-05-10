@@ -7,6 +7,7 @@ import imagen3 from "./imagen3.jpg";
 import imagen4 from "./imagen4.jpg";
 import Contacto from "./contacto";
 import Acercade from "./acercade";
+import Menu2 from "./menu";
 
 function Home() {
   const [cameraActive, setCameraActive] = useState(false);
@@ -42,7 +43,7 @@ function Home() {
               <Link to="/contacto">Contacto</Link>
             </li>
             <li>
-              <a href="#documentacion">Documentación</a>
+              <Link to="/menu">Menú</Link>
             </li>
           </ul>
         </nav>
@@ -162,6 +163,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/contacto" element={<Contacto />} />
         <Route path="/acercade" element={<Acercade />} />
+        <Route path="/menu" element={<Menu2 />} />
       </Routes>
     </Router>
   );
