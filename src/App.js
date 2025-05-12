@@ -30,7 +30,7 @@ function Home() {
   return (
     <div className="container">
       <header>
-        <h1>Reconocimiento de Usuarios</h1>
+        <h1>Funcionalidad de detección de intrusos</h1>
         <nav>
           <ul>
             <li>

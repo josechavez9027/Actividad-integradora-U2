@@ -48,7 +48,7 @@ const Contacto = () => {
   return (
     <div className="container">
       <header>
-        <h1>Reconocimiento de Usuarios</h1>
+        <h1>Funcionalidad de detección de intrusos</h1>
         <nav>
           <ul>
             <li>
@@ -88,7 +88,10 @@ const Contacto = () => {
           </ul>
         </section>
         <div className="Imgcontact">
-          <img src="https://img.freepik.com/vector-gratis/ilustracion-soporte-al-cliente_23-2148886085.jpg?t=st=1742960076~exp=1742963676~hmac=63068aba3088824e35f8ec6cc7ed680193586ca9fc7156801f5384454d0bebfd&w=826"></img>
+          <img
+            src="https://img.freepik.com/vector-gratis/ilustracion-soporte-al-cliente_23-2148886085.jpg?t=st=1742960076~exp=1742963676~hmac=63068aba3088824e35f8ec6cc7ed680193586ca9fc7156801f5384454d0bebfd&w=826"
+            alt="Contacto"
+          ></img>
         </div>
       </main>
       <section className="contact-form">

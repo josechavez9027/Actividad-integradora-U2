@@ -166,3 +166,52 @@ footer {
 .submit-btn:hover {
   background-color: #45a049;
 }
+
+.SubtituloMenu {
+  background-color: #265c96;
+  color: #fff;
+  padding-left: 10px;
+}
+.Menu-Seccion {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+#imagen5,
+#imagen7,
+#imagen6,
+#imagen8,
+#gp,
+.Ficha {
+  width: 80%;
+  margin: auto;
+  border: 8px solid #265c96;
+}
+
+.Ficha {
+  margin-bottom: 30px;
+}
+
+#imagen9,
+#a1 {
+  margin: auto;
+}
+
+table,
+th,
+td {
+  border: 1px solid #333; /* grosor, estilo, color */
+  border-collapse: collapse; /* une los bordes de celdas adyacentes */
+  padding: 2px;
+}
+
+.t-encabezado {
+  font-weight: 600;
+}
+
+.LigaGH,
+.Eviencia {
+  font-weight: 700;
+  color: #265c96;
+  font-size: 32px;
+}
